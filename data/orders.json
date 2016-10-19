@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"name": "Will",
+		"telephone": "0986455227",
+		"meal": "salad"
+	}, 
+	{
+		"id": 2,
+		"name": "Laura",
+		"telephone": "0986455227",
+		"meal": "crossain"
+	}, 
+	{
+		"id": 3,
+		"name": "Jess",
+		"telephone": "0986455227",
+		"meal": "soup"
+	}
+]

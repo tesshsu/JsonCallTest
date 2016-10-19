@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>testJson</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="row">
+		<div class="page-header text-center">
+		  <h1><img src="img/optimised.svg">Example load Json for reserve Restaurant Table</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="container">
+			<div id="tables" class="col-md-4">
+                
+			</div>
+
+			<div id="tables2" class="col-md-4 text-center">
+
+			</div>
+
+			<div id="tables3" class="col-md-4 text-center">
+
+			</div>
+		</div>	
+    </div>
+    <div class="row">
+    	<div class="container">
+    		   <div class="col-md-3">
+					<div id="showIdeal" class="alert alert-success" role="alert">your table list</div>
+				</div>
+				<div class="col-md-4 text-center">
+					<button class="btn btn-info">view Info</button>
+				</div>
+				<div class="col-md-4 lastBtnPart text-center">
+					<button class="btn btn-warning">view Meal</button>
+				</div>
+		</div>		
+	</div><!--end of first page-->
+	
+	<div class="row choiceTablepage hide">
+		<div class="page-header text-center">
+		  <h1><img src="img/res.svg">Choose your table</h1>
+		</div>
+		<div class="container">
+		<div class="row choicelist text-center">
+			<div class="col-md-4 form-group>
+		    <label for="name"></label>
+		    <input type="text" class="form-control"  id="choicename" placeholder="your Name" value="">
+		    </div>
+			<div class="col-md-4 btn-group" data-toggle="buttons">
+				<label class="btn btn-primary">
+				  <input type="checkbox" id="table1" value="table1" autocomplete="on">
+				  table 1
+				</label>
+				<label class="btn btn-primary">
+				  <input type="checkbox" id="table1" value="table2" autocomplete="on">
+				  table 2
+				</label>
+				<label class="btn btn-primary">
+				  <input type="checkbox" id="table1" value="table3" autocomplete="on">
+				  table 3
+				</label>
+		    </div>
+		    <button id="choiceTable" class="col-md-2 btn btn-success">Choice</button>
+			<button id="deleteTable" class="col-md-2 btn btn-warning">Delete</button>
+		</div>
+		<div class="space"></div>
+		<div class="showError"></div>
+        <div class="showTable"></div>
+	   </div>	
+  </div><!--end of choiceTable-->
+  <div class="row orderMealpage hide">
+		<div class="container">
+			<div class="page-header text-center">
+			  <h1><img src="img/order.svg">Your Personal Info</h1>
+			</div>
+            <ul id="orders">
+            	
+            </ul>
+            <h4>add a order</h4>
+			<form id="orderform" action="" method="post" novalidate="novalidate">
+            <div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" id="name" name="name">
+		    </div>
+		    <div class="form-group">
+					<label for="telephone">telephone</label>
+					<input type="tel" class="form-control" id="telephone" name="phone">
+		    </div>
+			</form>
+		    <button id="add-order" type="button" class="btn btn-warning">ADD Meal!</button>
+		</div>	
+  </div><!--end of post tableorder -->  	
+	<div class="row thankyoupage text-center">
+		
+	</div><!--end of thankyou page --> 				
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>	
+	<script type="text/javascript" src="js/testingjson.js" ></script>
+	
+</body>
+
+</html>

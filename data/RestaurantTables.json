@@ -1,0 +1,40 @@
+[{
+	"TableId": 1,
+	"TableName": "First Table",
+	"TableMenu": [
+	    "salad",
+	    "bread",
+	    "cake"
+	],
+	"TableFor": [
+		"dinner",
+		"breakfast",
+		"others"
+	]
+}, {
+	"TableId": 2,
+	"TableName": "Second Table",
+	"TableMenu": [
+	    "crossian",
+	    "steak",
+	    "fruit"
+	],
+	"TableFor": [
+		"teatime",
+		"breakfast",
+		"dinner"
+	]
+}, {
+	"TableId": 3,
+	"TableName": "Third Table",
+	"TableMenu": [
+	    "soup",
+	    "pasta",
+	    "cookies"
+	],
+	"TableFor": [
+		"entertaiment",
+		"breakfast",
+		"play"
+	]
+}]
